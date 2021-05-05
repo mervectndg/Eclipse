@@ -17,7 +17,7 @@ public class Main {
 		UserService userManager = new UserManager();
 
 		User engin = new User(1, "12345678901", "Engin", "Yenice", 1998);
-		User merve= new User(2,"15313111916", "Merve", "Çetindağ", 1999);
+		User merve= new User(2,"98765432109", "Merve", "Çetindağ", 1999);
 		userManager.add(engin);
 		System.out.println("--------------------------------------------");
 		userManager.add(merve);
